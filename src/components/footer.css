@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.footer-content {
+  background-color: rgb(16, 58, 57);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+  font-family: serif;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-content h3 a {
+  color: rgb(216, 198, 173);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer-content h3 a:hover {
+  text-decoration: underline;
+}
+
+#copyright {
+  font-size: 15px;
+  color: rgb(216, 198, 173);
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .footer-links {
+    margin-bottom: 10px; /* Adds space below the links on smaller screens */
+  }
+}
