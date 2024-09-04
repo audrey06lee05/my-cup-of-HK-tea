@@ -13,7 +13,7 @@
   flex-wrap: wrap; /* Ensures wrapping on smaller screens */
 }
 
-.navbar img {
+.navbar-logo img {
   max-width: 100px; /* Sets a maximum width */
   width: 100%; /* Makes the logo responsive */
   height: auto;
@@ -39,6 +39,8 @@
   font-size: 20px;
   padding: 5px 10px;
   text-decoration: none; /* Removes underline from links */
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .nav-link:hover {
@@ -55,7 +57,7 @@
     text-align: center; /* Centers text inside the navbar */
   }
 
-  .navbar img {
+  .navbar-logo {
     max-width: 80px; /* Adjusts the logo size on smaller screens */
     margin: 10px 0; /* Adds margin for spacing */
   }

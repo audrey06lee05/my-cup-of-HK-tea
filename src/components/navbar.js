@@ -5,7 +5,10 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={logo} alt="Logo" />
+      <a href="/" className="navbar-logo">
+        <img src={logo} alt="Logo" />
+      </a>
+
       <a className="navbar-brand" href="/">
         <h1>My Cup of HK Tea</h1>
       </a>
