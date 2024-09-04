@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <img src={logo} alt="Logo" />
-      <h1>My Cup of HK Tea</h1>
+      <a className="navbar-brand" href="/">
+        <h1>My Cup of HK Tea</h1>
+      </a>
 
       <a href="/" className="nav-link">
         Home

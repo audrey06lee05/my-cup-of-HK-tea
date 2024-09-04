@@ -21,7 +21,7 @@
   margin: 0 auto; /* Centers the logo in its flex container */
 }
 
-.navbar h1 {
+.navbar-brand {
   color: rgb(216, 198, 173);
   margin-left: 5px;
   padding: 5px;
@@ -30,9 +30,10 @@
   font-weight: bold;
   text-align: center;
   flex-grow: 1; /* Allows the text to grow if necessary */
+  text-decoration: none;
 }
 
-.navbar a {
+.nav-link {
   color: rgb(216, 198, 173);
   font-family: serif;
   font-size: 20px;
@@ -40,7 +41,7 @@
   text-decoration: none; /* Removes underline from links */
 }
 
-.navbar a:hover {
+.nav-link:hover {
   background-color: rgb(216, 198, 173);
   color: rgb(16, 58, 57);
 }
@@ -59,12 +60,12 @@
     margin: 10px 0; /* Adds margin for spacing */
   }
 
-  .navbar h1 {
+  .navbar-brand {
     font-size: 24px; /* Adjusts the font size on smaller screens */
     margin: 10px 0; /* Adds vertical margin for spacing */
   }
 
-  .navbar a {
+  .nav-link {
     display: block; /* Stacks links vertically on smaller screens */
     font-size: 18px; /* Adjusts the font size for links on smaller screens */
     padding: 10px; /* Adds more padding for better touch targets */
