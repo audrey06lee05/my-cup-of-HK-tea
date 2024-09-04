@@ -22,7 +22,7 @@
 }
 
 .navbar h1 {
-  color: #fff1e6;
+  color: rgb(216, 198, 173);
   margin-left: 5px;
   padding: 5px;
   font-family: serif;
@@ -33,7 +33,7 @@
 }
 
 .navbar a {
-  color: #fff1e6;
+  color: rgb(216, 198, 173);
   font-family: serif;
   font-size: 20px;
   padding: 5px 10px;
@@ -41,7 +41,7 @@
 }
 
 .navbar a:hover {
-  background-color: #fff1e6;
+  background-color: rgb(216, 198, 173);
   color: rgb(16, 58, 57);
 }
 
@@ -50,6 +50,7 @@
   .navbar {
     flex-direction: column; /* Stacks items vertically */
     align-items: center; /* Centers items horizontally */
+    justify-content: center;
     text-align: center; /* Centers text inside the navbar */
   }
 
