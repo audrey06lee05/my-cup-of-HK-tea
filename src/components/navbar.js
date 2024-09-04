@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"; // for hyper links to change pages
 
 const Navbar = () => {
   return (
