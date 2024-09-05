@@ -1,6 +1,5 @@
 .home-welcome {
   background-color: rgb(231, 219, 201);
-
   color: rgb(16, 58, 57);
   padding: 10%;
   display: flex;
@@ -11,45 +10,61 @@
   font-family: serif;
 }
 
-.home-welcome img {
-  max-width: 400px;
-  height: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 50px;
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center text and image vertically */
+}
+
+.welcome-text h1,
+.welcome-text h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Ensure the text is centered */
 }
 
 .welcome-text h1 {
-  margin: 0;
-  padding: 0;
+  font-size: 100px;
+}
+
+.welcome-text h2 {
+  font-size: 80px;
 }
 
 .welcome-text img {
-  width: 300px; /* Allow width to adjust automatically */
-  height: 300px; /* Set a specific height */
-  margin: 0;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto; /* Ensure image is centered */
+  margin-bottom: 50px;
   padding: 0;
-  border: none; /* Ensure no border */
-  box-shadow: none; /* Ensure no shadow */
-  outline: none; /* Ensure no outline */
+  border: none;
+  box-shadow: none;
+  outline: none;
+  display: block;
 }
 
 /* Media query for tablets and smaller screens */
 @media (max-width: 1024px) {
   .home-welcome {
     padding: 5%;
-    flex-direction: column; /* Stack items vertically on smaller screens */
-  }
-
-  .home-welcome img {
-    max-width: 300px; /* Adjust the image size on smaller screens */
-    margin-right: 0; /* Remove right margin */
-    margin-bottom: 20px; /* Adjust bottom margin for spacing */
+    flex-direction: column; /* Switch to column layout on smaller screens */
+    align-items: center; /* Ensure the items stay centered */
   }
 
   .welcome-text img {
-    width: 250px; /* Adjust image size for tablets */
-    height: auto; /* Maintain aspect ratio */
+    width: 250px; /* Ensure text-related image resizes */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .welcome-text h1 {
+    font-size: 50px;
+  }
+
+  .welcome-text h2 {
+    font-size: 40px;
   }
 }
 
@@ -57,15 +72,24 @@
 @media (max-width: 768px) {
   .home-welcome {
     padding: 3%;
-  }
-
-  .home-welcome img {
-    max-width: 200px; /* Further reduce image size for mobile screens */
-    margin-bottom: 15px; /* Adjust bottom margin for spacing */
+    flex-direction: column;
+    align-items: center; /* Center items on small screens */
   }
 
   .welcome-text img {
-    width: 200px; /* Adjust image size for mobile phones */
-    height: auto; /* Maintain aspect ratio */
+    width: 250px; /* Ensure text-related image resizes */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .welcome-text h1 {
+    margin-top: -30px;
+    font-size: 30px;
+  }
+
+  .welcome-text h2 {
+    font-size: 20px;
   }
 }

@@ -9,13 +9,13 @@
   justify-content: space-between; /* Distributes space between the elements */
   align-items: center; /* Centers items vertically */
   background-color: rgb(16, 58, 57);
-  padding: 10px;
+  padding: 50px;
   flex-wrap: wrap; /* Ensures wrapping on smaller screens */
 }
 
 .navbar-logo img {
-  max-width: 100px; /* Sets a maximum width */
-  width: 100%; /* Makes the logo responsive */
+  max-width: 200px; /* Sets a maximum width */
+  width: 150%; /* Makes the logo responsive */
   height: auto;
   border-radius: 50%;
   margin: 0 auto; /* Centers the logo in its flex container */
@@ -26,7 +26,7 @@
   margin-left: 5px;
   padding: 5px;
   font-family: serif;
-  font-size: 30px;
+  font-size: 60px;
   font-weight: bold;
   text-align: center;
   flex-grow: 1; /* Allows the text to grow if necessary */
@@ -36,7 +36,7 @@
 .nav-link {
   color: rgb(216, 198, 173);
   font-family: serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   padding: 5px 10px;
   text-decoration: none; /* Removes underline from links */
@@ -59,18 +59,18 @@
   }
 
   .navbar-logo {
-    max-width: 80px; /* Adjusts the logo size on smaller screens */
-    margin: 10px 0; /* Adds margin for spacing */
+    max-width: 150px; /* Adjusts the logo size on smaller screens */
+    margin: 0px 0; /* Adds margin for spacing */
   }
 
   .navbar-brand {
-    font-size: 24px; /* Adjusts the font size on smaller screens */
+    font-size: 30px; /* Adjusts the font size on smaller screens */
     margin: 10px 0; /* Adds vertical margin for spacing */
   }
 
   .nav-link {
     display: block; /* Stacks links vertically on smaller screens */
-    font-size: 18px; /* Adjusts the font size for links on smaller screens */
+    font-size: 23px; /* Adjusts the font size for links on smaller screens */
     padding: 10px; /* Adds more padding for better touch targets */
   }
 }

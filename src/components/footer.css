@@ -25,6 +25,7 @@
   color: rgb(216, 198, 173);
   text-decoration: none;
   font-size: 25px;
+  margin-top: 10px;
 }
 
 .footer-content h3 a:hover {
@@ -71,6 +72,7 @@
 
   .footer-content h3 {
     margin: 0; /* Remove default margin around headings */
+    margin-top: 10px;
   }
 
   .footer-content svg {
