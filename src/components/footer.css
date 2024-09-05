@@ -82,4 +82,9 @@
   .footer-content svg:hover {
     font-size: 20px;
   }
+
+  #copyright {
+    font-size: 15px;
+    color: rgb(216, 198, 173);
+  }
 }
