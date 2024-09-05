@@ -1,9 +1,13 @@
 import React from "react";
+import menu from "../img/menu.png";
+import "./menu.css";
 
 const MenuPage = () => {
   return (
     <>
-      <h1>Menu</h1>
+      <main className="menu">
+        <img src={menu} alt="Menu"></img>
+      </main>
     </>
   );
 };
