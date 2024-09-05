@@ -11,9 +11,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" exact element={HomePage} />
-        <Route path="/menu" exact element={MenuPage} />
-        <Route path="/contact" exact element={ContactPage} />
+        <Route path="/" exact element={<HomePage />} />
+        <Route path="/menu" exact element={<MenuPage />} />
+        <Route path="/contact" exact element={<ContactPage />} />
       </Routes>
       <Footer />
     </Router>

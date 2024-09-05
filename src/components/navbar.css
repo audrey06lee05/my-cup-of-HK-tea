@@ -36,7 +36,8 @@
 .nav-link {
   color: rgb(216, 198, 173);
   font-family: serif;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
   padding: 5px 10px;
   text-decoration: none; /* Removes underline from links */
   margin-left: 15px;

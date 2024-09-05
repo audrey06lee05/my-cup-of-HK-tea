@@ -24,7 +24,7 @@
 .footer-content h3 a {
   color: rgb(216, 198, 173);
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 .footer-content h3 a:hover {
@@ -43,15 +43,16 @@
 
 .footer-content svg {
   color: rgb(216, 198, 173); /* Match icon color with links */
-  font-size: 25px; /* Increase the icon size */
+  font-size: 28px; /* Increase the icon size */
+  margin: 10px;
 }
 
 .footer-content svg:hover {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 #copyright {
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(216, 198, 173);
 }
 
