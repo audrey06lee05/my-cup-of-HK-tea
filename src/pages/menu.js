@@ -1,12 +1,12 @@
 import React from "react";
-import menu from "../img/menu.png";
+import leedsmenu from "../img/menu-leeds.png";
 import "./menu.css";
 
 const MenuPage = () => {
   return (
     <>
       <main className="menu">
-        <img src={menu} alt="Menu"></img>
+        <img src={leedsmenu} alt="Menu"></img>
       </main>
     </>
   );
