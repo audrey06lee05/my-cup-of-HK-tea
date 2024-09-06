@@ -14,7 +14,13 @@ const ContactPage = () => {
         <article className="leeds-store">
           <h1>Contact Us</h1>
           <p>Address:</p>
-          <p>No.16, Krikgate Market, Leeds LS2 7HY</p>
+          <a
+            className="address"
+            href="https://maps.app.goo.gl/2C5KVvqnBfPgumVC6"
+            target="_blank"
+          >
+            <p>No.16, Krikgate Market, Leeds LS2 7HY</p>
+          </a>
           <p>Contact us on social media!</p>
           <div className="icon-buttons">
             <a
@@ -33,13 +39,6 @@ const ContactPage = () => {
             </a>
           </div>
         </article>
-      </main>
-      <main className="map">
-        <figure>
-          <a href="https://maps.app.goo.gl/JDNWygAUspoNk5iPA" target="_blank">
-            <img src={map} alt="Map"></img>
-          </a>
-        </figure>
       </main>
     </>
   );

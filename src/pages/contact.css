@@ -67,25 +67,14 @@
   line-height: 1.5;
 }
 
-.map {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(231, 219, 201);
+.leeds-store a {
+  text-decoration: none; /* Remove underline */
+  color: rgb(16, 58, 57); /* Ensure the text color is correct */
 }
 
-.map img {
-  width: 700px;
-  height: 700px;
-  object-fit: cover;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.map img:hover {
-  cursor: pointer;
-  transform: scale(1.1);
+.address p:hover {
+  color: rgb(169, 151, 127); /* Keep hover effect */
+  text-decoration: none; /* Ensure there's no underline on hover */
 }
 
 /* Media query for tablets and smaller screens */
@@ -120,10 +109,7 @@
     font-size: 30px; /* Reduce font size */
   }
 
-  .map img {
-    width: 90%; /* Ensure image scales appropriately */
-    max-width: 500px; /* Limit the maximum width */
-    height: auto; /* Maintain aspect ratio */
+  .leeds-store a {
   }
 }
 
@@ -160,16 +146,5 @@
   .leeds-store p {
     font-size: 20px; /* Reduce font size */
     margin: 5px; /* Adjust margins */
-  }
-
-  .map img {
-    width: 100%; /* Scale image to fit container */
-    max-width: 300px; /* Limit the maximum width */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  .map img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
   }
 }

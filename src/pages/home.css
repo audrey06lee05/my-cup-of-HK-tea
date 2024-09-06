@@ -101,6 +101,8 @@
   box-shadow: none;
   outline: none;
   display: block;
+  border: 10px double;
+  border-color: rgb(16, 58, 57);
 }
 
 .review h5 {
@@ -208,6 +210,8 @@
 
   .food-pics img {
     max-width: 200px; /* Resize images for mobile */
+    border: 5px double;
+    border-color: rgb(16, 58, 57);
   }
 
   .review h5 {
