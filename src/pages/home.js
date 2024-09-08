@@ -25,15 +25,6 @@ const HomePage = () => {
           culture, flavor, and community.
         </p>
         <p>
-          After relocating to the UK, Wilber sought to share the authentic taste
-          of Hong Kong-style milk tea with everyone, regardless of background.
-          By merging the bold flavors of traditional Hong Kong milk tea with the
-          popular Taiwanese bubble tea concept, we’ve created a unique and
-          refreshing experience that anyone can enjoy. From our signature "BNO
-          Special Drink" to our carefully selected Hong Kong tea leaves, every
-          drink tells a story.
-        </p>
-        <p>
           At My Cup of HK Tea, we believe that tea can bring people together.
           Whether you’re curious about new flavors, craving something familiar,
           or just looking for a cozy spot to relax, our shop welcomes all. It’s

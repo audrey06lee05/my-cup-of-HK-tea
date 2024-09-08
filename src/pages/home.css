@@ -200,11 +200,11 @@
     font-size: 25px; /* Further adjust for mobile */
     padding-left: 20px; /* Even smaller padding */
     padding-right: 20px;
-    padding-top: 25px;
+    padding-top: 35px;
   }
 
   .about-us p {
-    font-size: 20px; /* Further reduce paragraph text size */
+    font-size: 18px; /* Further reduce paragraph text size */
     padding: 10px; /* Smaller padding for mobile */
     text-align: justify;
   }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import leedsmenu from "../img/menu-leeds.png";
-import readingmenu1 from "../img/menu-reading1.png";
-import readingmenu2 from "../img/menu-reading2.png";
+import readingmenu from "../img/menu-reading.png";
+import keyring from "../img/trolley-coin.png";
 import "./menu.css";
 
 const MenuPage = () => {
@@ -14,6 +14,16 @@ const MenuPage = () => {
   const showReadingMenu = () => {
     setSelectedMenu("reading");
   };
+
+  const products = [
+    {
+      picture: keyring,
+      name: "Trolley Coin Keyring",
+      description:
+        "Buy 2 drinks, and get a free keyring for borrowing shopping carts! ",
+      price: "",
+    },
+  ];
 
   return (
     <>
@@ -37,11 +47,23 @@ const MenuPage = () => {
         {/* Conditionally render the menu image based on which button is clicked */}
         {selectedMenu === "leeds" && <img src={leedsmenu} alt="Leeds Menu" />}
         {selectedMenu === "reading" && (
-          <>
-            <img src={readingmenu1} alt="Reading Menu Page 1" />
-            <img src={readingmenu2} alt="Reading Menu Page 2" />
-          </>
+          <img src={readingmenu} alt="Reading Menu" />
         )}
+
+        {/* Product section */}
+        <section className="product-section">
+          <h2>Our Products</h2>
+          <div className="products-container">
+            {products.map((product, index) => (
+              <div key={index} className="product">
+                <img src={product.picture} alt={product.name} />
+                <h3>{product.name}</h3>
+                <p>{product.description}</p>
+                <p className="price">{product.price}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </main>
     </>
   );
