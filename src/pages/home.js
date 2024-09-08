@@ -18,16 +18,28 @@ const HomePage = () => {
       <article className="about-us">
         <h2>About Us</h2>
         <p>
-          Lorem ipsum odor amet, consectetuer adipiscing elit. In lorem
-          pulvinar; sagittis netus torquent quis! Euismod maecenas tristique id
-          mus est hac nascetur montes. Massa semper tincidunt platea; turpis
-          nibh tristique cursus justo. Feugiat class laoreet cras magnis sem
-          elementum eleifend. Eget egestas elit consectetur sapien adipiscing
-          pulvinar. Mauris a curae fames cursus quam dictum duis feugiat.
-          Porttitor placerat varius at ex faucibus augue congue condimentum
-          accumsan. Diam bibendum ligula imperdiet, ipsum vitae leo eu. Vel
-          vivamus magnis, ullamcorper habitant scelerisque curae libero per.
-          Malesuada ultrices in vehicula consectetur duis eros ultricies ex.
+          Welcome to My Cup of HK Tea, where every sip is crafted with care,
+          blending the rich traditions of Hong Kong with a modern twist. Founded
+          by Wilber Lee, a former district council member from Hong Kong, our
+          shop is more than just a place to grab a drink—it’s a celebration of
+          culture, flavor, and community.
+        </p>
+        <p>
+          After relocating to the UK, Wilber sought to share the authentic taste
+          of Hong Kong-style milk tea with everyone, regardless of background.
+          By merging the bold flavors of traditional Hong Kong milk tea with the
+          popular Taiwanese bubble tea concept, we’ve created a unique and
+          refreshing experience that anyone can enjoy. From our signature "BNO
+          Special Drink" to our carefully selected Hong Kong tea leaves, every
+          drink tells a story.
+        </p>
+        <p>
+          At My Cup of HK Tea, we believe that tea can bring people together.
+          Whether you’re curious about new flavors, craving something familiar,
+          or just looking for a cozy spot to relax, our shop welcomes all. It’s
+          a place to enjoy quality drinks and connect with others, no matter
+          where you’re from. Come visit us and experience a fusion of flavors,
+          cultures, and community, all in one cup!
         </p>
         <figure className="food-pics">
           <img src={milktea} alt="Milk Tea"></img>

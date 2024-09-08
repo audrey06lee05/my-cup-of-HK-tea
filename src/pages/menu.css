@@ -2,13 +2,83 @@
   background-color: rgb(231, 219, 201);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   text-align: center;
   font-family: serif;
   padding: 2%;
+  min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
 }
 
 .menu img {
   width: 100%;
+  margin-top: 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+  z-index: 1; /* Ensure the buttons stay above other content */
+}
+
+.button-container button {
+  background-color: rgb(169, 151, 127);
+  color: rgb(16, 58, 57);
+  border: none;
+  padding: 10px 20px;
+  font-size: 45px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.button-container button:hover {
+  background-color: rgb(16, 58, 57);
+  color: rgb(216, 198, 173);
+}
+
+.button-container button.selected {
+  background-color: rgb(16, 58, 57);
+  color: rgb(216, 198, 173);
+}
+
+/* Media query for tablet mode */
+@media (max-width: 1024px) {
+  .menu {
+    min-height: 10vh;
+  }
+  .button-container {
+    flex-direction: row;
+    justify-content: top;
+    gap: 20px;
+    margin-top: 20px; /* Adjust space from top */
+  }
+
+  .button-container button {
+    font-size: 30px;
+    padding: 8px 16px;
+  }
+}
+
+/* Media query for mobile phone mode */
+@media (max-width: 768px) {
+  .menu {
+    padding-bottom: 40px;
+    min-height: 10vh;
+  }
+
+  .button-container {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: top;
+  }
+
+  .button-container button {
+    font-size: 20px;
+    padding: 6px 12px;
+  }
 }
