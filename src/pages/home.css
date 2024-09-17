@@ -13,14 +13,14 @@
 .welcome-text {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center text and image vertically */
+  align-items: center;
 }
 
 .welcome-text h1,
 .welcome-text h2 {
   margin: 0;
   padding: 0;
-  text-align: center; /* Ensure the text is centered */
+  text-align: center; 
 }
 
 .welcome-text h1 {
@@ -36,7 +36,7 @@
 .welcome-text img {
   max-width: 600px;
   height: auto;
-  margin: 0 auto; /* Ensure image is centered */
+  margin: 0 auto; 
   margin-bottom: 50px;
   margin-top: -50px;
   padding: 0;
@@ -60,9 +60,9 @@
   font-size: 70px;
   color: rgb(16, 58, 57);
   border-bottom: 3px solid;
-  width: fit-content; /* Fit the line to the content size */
-  padding-left: 100px; /* Add space on the left */
-  padding-right: 100px; /* Add space on the right */
+  width: fit-content; 
+  padding-left: 100px; 
+  padding-right: 100px; 
   margin: 0 auto;
 }
 
@@ -95,7 +95,7 @@
 .food-pics img {
   max-width: 500px;
   height: auto;
-  margin: 0 auto; /* Ensure image is centered */
+  margin: 0 auto; 
   margin-bottom: 50px;
   padding: 0;
   border: none;
@@ -119,12 +119,12 @@
 @media (max-width: 1024px) {
   .home-welcome {
     padding: 5%;
-    flex-direction: column; /* Switch to column layout on smaller screens */
-    align-items: center; /* Ensure the items stay centered */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .welcome-text img {
-    width: 250px; /* Ensure text-related image resizes */
+    width: 250px; 
     height: auto;
     display: flex;
     flex-direction: column;
@@ -141,29 +141,29 @@
     white-space: nowrap;
   }
   .about-us h2 {
-    font-size: 50px; /* Adjusts heading size for smaller screens */
-    padding-left: 50px; /* Reduce padding on smaller screens */
+    font-size: 50px;
+    padding-left: 50px;
     padding-right: 50px;
   }
 
   .about-us p {
-    font-size: 30px; /* Adjusts paragraph text size for smaller screens */
-    padding: 15px; /* Reduce padding */
+    font-size: 30px;
+    padding: 15px; 
   }
 
   .food-pics {
-    flex-direction: column; /* Stack images vertically */
+    flex-direction: column; 
     justify-content: center;
   }
 
   .food-pics img {
-    width: 50%; /* Ensure the image takes up the full width of its container */
+    width: 50%; 
     max-width: 100px;
     height: auto;
   }
 
   .review h5 {
-    font-size: 25px; /* Adjust review font size */
+    font-size: 25px;
     padding-left: 10px;
   }
 }
@@ -173,11 +173,11 @@
   .home-welcome {
     padding: 3%;
     flex-direction: column;
-    align-items: center; /* Center items on small screens */
+    align-items: center;
   }
 
   .welcome-text img {
-    width: 250px; /* Ensure text-related image resizes */
+    width: 250px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -197,26 +197,26 @@
     white-space: nowrap;
   }
   .about-us h2 {
-    font-size: 21px; /* Further adjust for mobile */
-    padding-left: 20px; /* Even smaller padding */
+    font-size: 21px; 
+    padding-left: 20px; 
     padding-right: 20px;
     padding-top: 35px;
   }
 
   .about-us p {
-    font-size: 13px; /* Further reduce paragraph text size */
-    padding: 10px; /* Smaller padding for mobile */
+    font-size: 13px;
+    padding: 10px; 
     text-align: justify;
   }
 
   .food-pics img {
-    max-width: 200px; /* Resize images for mobile */
+    max-width: 200px;
     border: 5px double;
     border-color: rgb(16, 58, 57);
   }
 
   .review h5 {
-    font-size: 13px; /* Adjust review text for mobile */
+    font-size: 13px;
     text-align: justify;
     justify-content: center;
     align-items: center;
