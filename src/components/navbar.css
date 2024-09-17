@@ -9,15 +9,13 @@
   justify-content: space-between; /* Distributes space between the elements */
   align-items: center; /* Centers items vertically */
   background-color: rgb(16, 58, 57);
-  padding: 50px;
+  padding: 20px;
   flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+  gap: 15px;
 }
 
 .navbar-logo {
-  flex-grow: 1; /* Ensures the logo takes up space and can be centered */
-  display: flex; /* Use flexbox to control the image */
-  justify-content: center; /* Centers the image horizontally */
-  align-items: center; /* Centers the image vertically */
+  flex-shrink: 0;
 }
 
 .navbar-logo img {
@@ -31,8 +29,8 @@
   color: rgb(216, 198, 173);
   margin-left: 5px;
   padding: 5px;
-  font-family: serif;
-  font-size: 60px;
+  font-family: "Noto Serif HK", serif;
+  font-size: 40px; /* Reduced font size from 60px to 40px */
   font-weight: bold;
   text-align: center;
   flex-grow: 1; /* Allows the text to grow if necessary */
@@ -41,13 +39,14 @@
 
 .nav-link {
   color: rgb(216, 198, 173);
-  font-family: serif;
+  font-family: "Noto Serif HK", serif;
   font-size: 40px;
   font-weight: bold;
   padding: 5px 10px;
   text-decoration: none; /* Removes underline from links */
   margin-left: 15px;
   margin-right: 15px;
+  flex-shrink: 0; /* Prevent links from shrinking too much */
 }
 
 .nav-link:hover {
@@ -70,7 +69,7 @@
   }
 
   .navbar-brand {
-    font-size: 30px; /* Adjusts the font size on smaller screens */
+    font-size: 25px; /* Adjusts the font size on smaller screens */
     margin: 10px 0; /* Adds vertical margin for spacing */
   }
 

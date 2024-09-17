@@ -44,7 +44,7 @@ const ContactPage = () => {
             href="https://maps.app.goo.gl/dEWZepBnGFRCDKQW7"
             target="_blank"
           >
-            <p>77-79 kings road, Reading, England Rg1 3dd</p>
+            <p>77-79 kings road, Reading, England RG1 3DD</p>
           </a>
 
           <div className="icon-buttons">

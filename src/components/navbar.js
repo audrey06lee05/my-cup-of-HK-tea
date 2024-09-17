@@ -10,7 +10,8 @@ const Navbar = () => {
       </a>
 
       <a className="navbar-brand" href="/">
-        <h1>淨飲雙計・My Cup of HK Tea</h1>
+        <h1>- 淨飲雙計 - </h1>
+        <h1>My Cup of HK Tea</h1>
       </a>
 
       <a href="/" className="nav-link">

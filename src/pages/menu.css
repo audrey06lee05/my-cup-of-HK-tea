@@ -5,7 +5,7 @@
   justify-content: top;
   align-items: center;
   text-align: center;
-  font-family: serif;
+  font-family: "Noto Serif HK", serif;
   padding: 2%;
   min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
 }
@@ -32,7 +32,7 @@
   font-size: 45px;
   cursor: pointer;
   margin-top: 20px;
-  font-family: serif;
+  font-family: "Noto Serif HK", serif;
   font-weight: bold;
 }
 
@@ -52,7 +52,7 @@
   justify-content: top;
   align-items: center;
   text-align: center;
-  font-family: serif;
+  font-family: "Noto Serif HK", serif;
   padding: 2%;
   min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
 }
@@ -76,7 +76,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: serif;
+  font-family: "Noto Serif HK", serif;
   padding: 2%;
   min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
 }
