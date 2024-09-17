@@ -18,7 +18,7 @@
 .footer-links {
   display: flex;
   gap: 15px;
-  align-items: center; /* Align icons with text */
+  align-items: center; 
 }
 
 .footer-content h3 a {
@@ -43,8 +43,8 @@
 }
 
 .footer-content svg {
-  color: rgb(216, 198, 173); /* Match icon color with links */
-  font-size: 28px; /* Increase the icon size */
+  color: rgb(216, 198, 173); 
+  font-size: 28px; 
   justify-content: center;
   align-items: center;
 }
@@ -62,24 +62,24 @@
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    align-items: center; 
   }
 
   .footer-links {
-    flex-direction: column; /* Stack links and icons vertically on smaller screens */
-    gap: 5px; /* Reduce gap between items */
-    margin-bottom: 0px; /* Adds space below the links on smaller screens */
+    flex-direction: column; 
+    gap: 5px; 
+    margin-bottom: 0px; 
     padding: 0;
   }
 
   .footer-content h3 a {
-    margin: 0; /* Remove default margin around headings */
-    font-size: 20px; /* Adjust size for smaller screens */
-    line-height: 0.5; /* Adjust line height for tighter spacing */
+    margin: 0; 
+    font-size: 20px; 
+    line-height: 0.5; 
   }
 
   .footer-content svg {
-    margin-left: 0; /* Remove margin for better alignment */
+    margin-left: 0; 
   }
   .footer-content svg:hover {
     font-size: 20px;
