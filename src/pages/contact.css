@@ -6,13 +6,13 @@
   text-align: center;
   background-color: rgb(231, 219, 201);
   font-family: "Noto Serif HK", serif;
-  gap: 300px;
-  padding: 20px; 
+  gap: 100px;
+  padding: 20px;
 }
 
 .contact img {
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   object-fit: cover;
   margin-top: 100px;
@@ -24,18 +24,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 50px;
   text-align: center;
 }
 
 .stores h1 {
   color: rgb(16, 58, 57);
-  font-size: 70px;
+  font-size: 40px;
   font-weight: bold;
   border-bottom: 3px solid;
   width: fit-content;
-  padding-left: 100px;
-  padding-right: 100px;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -43,7 +40,7 @@
 .icon-buttons {
   display: flex;
   flex-direction: row;
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 20px;
   gap: 20px;
 }
@@ -60,7 +57,7 @@
 
 .stores p {
   color: rgb(16, 58, 57);
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
   margin: 10px;
   margin-top: 20px;
@@ -70,12 +67,12 @@
 
 .stores a {
   text-decoration: none; /* Remove underline */
-  color: rgb(16, 58, 57); 
+  color: rgb(16, 58, 57);
 }
 
 .stores a:hover {
-  color: rgb(169, 151, 127); 
-  text-decoration: none; 
+  color: rgb(169, 151, 127);
+  text-decoration: none;
 }
 
 .address p:hover {
@@ -85,33 +82,33 @@
 /* Media query for tablets and smaller screens */
 @media (max-width: 1024px) {
   .contact {
-    flex-direction: column; 
-    gap: 20px; 
+    flex-direction: column;
+    gap: 20px;
   }
 
   .contact img {
     width: 90%;
-    max-width: 500px; 
-    height: auto; 
+    max-width: 500px;
+    height: auto;
   }
 
   .stores {
-    margin-right: 0; 
+    margin-right: 0;
   }
 
   .stores h1 {
-    font-size: 50px; 
-    padding-left: 20px; 
+    font-size: 50px;
+    padding-left: 20px;
     padding-right: 20px;
   }
 
   .icon-buttons {
     font-size: 40px;
-    gap: 15px; 
+    gap: 15px;
   }
 
   .stores p {
-    font-size: 30px; 
+    font-size: 30px;
   }
 
   .stores a {
@@ -139,17 +136,17 @@
 
   .stores h1 {
     font-size: 30px;
-    padding-left: 10px; 
+    padding-left: 10px;
     padding-right: 10px;
   }
 
   .icon-buttons {
-    font-size: 25px; 
+    font-size: 25px;
     gap: 10px;
   }
 
   .stores p {
-    font-size: 20px; 
-    margin: 5px; 
+    font-size: 20px;
+    margin: 5px;
   }
 }
